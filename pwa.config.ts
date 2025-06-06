@@ -2,9 +2,9 @@ import type { Config } from './types';
 
 export default {
   id: '/',
-  name: 'My Blog',
-  shortName: 'My Blog',
-  description: 'My blog description goes here...',
+  name: 'Fakta Blue',
+  shortName: 'Fakta Blue',
+  description: 'Situs Berita Fakta Informasi Eksklusif ',
   direction: 'auto',
   language: 'en-US',
   backgroundColor: '#fff',
@@ -34,10 +34,10 @@ export default {
     // OneSignal is not available if you are not using cloudflare workers
     oneSignalEnabled: false,
     oneSignalConfig: {
-      appId: '********-****-****-****-************',
+      appId: 'BF83R69g9eEHe40sVHzLGbuO8ZL0zDo8fUpYle9X',
       allowLocalhostAsSecureOrigin: true,
     },
   },
   // Please replace with your blog url if you are using CDN (JsDelivr)
-  origin: 'https://hello-example.blogspot.com',
+  origin: 'https://www.fakta.blue',
 } satisfies Config;
